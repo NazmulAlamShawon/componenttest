@@ -1,5 +1,6 @@
+let text='like'
 function TestButton() {
-    return <button>Like this video</button>
+    return <button>{text}</button>
 }
 
 export default TestButton
